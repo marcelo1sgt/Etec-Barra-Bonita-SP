@@ -24,14 +24,14 @@ var idade = parseInt(prompt("Saiba qual a classificação dos filmes que, segund
 
 if (idade >= 18) {
     console.log("Para a idade de " + idade + " anos a classificação é 18 ANOS!");
-} else if (idade < 18){
+} else if (idade >= 16){
     console.log("Para a idade de " + idade + " anos a classificação é 16 ANOS!");
-} else if (idade < 16){
+} else if (idade >= 14){
     console.log("Para a idade de " + idade + " anos a classificação é 14 ANOS!");
-} else if (idade < 14){
+} else if (idade >= 12){
     console.log("Para a idade de " + idade + " anos a classificação é 12 ANOS!");
-} else if (idade < 12){
-        console.log("Para a idade de " + idade + " anos a classificação é LIVRE!");
+} else if (idade >= 0){
+    console.log("Para a idade de " + idade + " anos a classificação é LIVRE!");
 }  else {
     console.log("Digite uma idade válida!");
 }
