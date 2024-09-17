@@ -86,7 +86,7 @@ descricaoPizza += "5 -> Baiana -> R$ 22,50\n";
 descricaoPizza += "Digite o código da pizza: ";
 
 var codigoPizza = parseInt(prompt(descricaoPizza));
-var qtdePizza = parseInt(prompt("Digite a quantidade desejada da pizza: "));
+var qtdePizza = parseInt(prompt("Digite a quantidade desejada de pizzas: "));
 var valorPizza = 0 
 if (codigoPizza == 1) {
     valorPizza += qtdePizza * 20;
@@ -105,12 +105,12 @@ if (codigoPizza == 1) {
 var descricaoBebida = "*** Menu de Bebidas ***\n";
 descricaoBebida += "1 -> Refrigerante Lata -> R$ 5,00\n";
 descricaoBebida += "2 -> Refrigerante 2L -> R$ 10,00\n";
-descricaoBebida += "3 -> Agua -> R$ 3,50\n";
+descricaoBebida += "3 -> Água -> R$ 3,50\n";
 descricaoBebida += "4 -> Suco -> R$ 7,50\n";
 descricaoBebida += "Digite o código da bebida: ";
 
 var codigoBebida = parseInt(prompt(descricaoBebida));
-var qtdeBebida = parseInt(prompt("Digite a quantidade desejada da bebida: "));
+var qtdeBebida = parseInt(prompt("Digite a quantidade desejada de bebidas: "));
 var valorBebida = 0;
 if (codigoBebida == 1) {
     valorBebida += qtdeBebida * 5;

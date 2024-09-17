@@ -10,7 +10,7 @@ if (compra >= 300) {
 } else if (compra > 0) {
     totalcompra = compra + 50;
     console.log("Frete de R$ 50,00!");
-    console.log("O valor total da compra mais o frete é de: R$" + totalcompra + ",00!!!");
+    console.log("O valor total da compra mais o frete é de: R$" + totalcompra + "!!!");
 } else {
     console.log("Digite um valor válido!!!");
 }
