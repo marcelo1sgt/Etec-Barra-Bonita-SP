@@ -11,7 +11,7 @@ Código =>  Condição Pagamento
 
 var valor = parseFloat(prompt("Faça sua compra e escolha a condição de pagamento que melhor o satisfaz!!!\nDigite o valor unitário do produto: R$ "));
 var qtde = parseInt(prompt("Digite a quantidade desejada do produto: "))
-var opcao = parseInt(prompt("1 => À vista, dinheiro ou cheque, 10% de desconto\n2 => À vista, cartão de credito, 5% de desconto\n3 => Em 2 vezes, preço sem juros\n4 => Em 3 vezes, preço + 10% de juros\nDigite a opção desejada de pagamento: "));
+var opcao = parseInt(prompt("*** Formas de pagamento ***\n1 => À vista, dinheiro ou cheque, 10% de desconto\n2 => À vista, cartão de credito, 5% de desconto\n3 => Em 2 vezes, preço sem juros\n4 => Em 3 vezes, preço + 10% de juros\nDigite a opção desejada de pagamento: "));
 var opcaoUm = valor * qtde * 0.1;
 var opcaoDois = (valor * qtde) * 0.05;
 var opcaoTres = (valor * qtde) / 2;
